@@ -1,7 +1,7 @@
-# Utiliza álgebra booleana para hacer un refactoring de este código
+# Utiliza algebra booleana para hacer un refactoring de este codigo
 # Para verificar la respuestas, puedes variar los valores de a y b.
 
-a = true
+a = false
 b = true
 
 if a == true
@@ -10,6 +10,7 @@ if a == true
   else
     puts 'Lograste A! Pero no B!'
   end
-else
+
+elsif b == false
   puts 'No lograste A ni B!'
 end
